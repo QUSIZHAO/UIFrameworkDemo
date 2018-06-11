@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="time"
+        android:icon="@mipmap/home_normal"
+        android:fragment="com.xbm.android.demo.fragment.WeChatHomeFragment"
+        icon2="@mipmap/home_selected"></item>
+    <item
+        android:title="unread"
+        android:fragment="com.xbm.android.demo.fragment.WeChatContactFragment"
+        android:icon="@mipmap/category_normal"
+        icon2="@mipmap/category_selected"></item>
+    <item
+        android:title="smile"
+        android:fragment="com.xbm.android.demo.fragment.WeChatFindFragment"
+        android:icon="@mipmap/service_normal"
+        icon2="@mipmap/service_selected"></item>
+
+    <item
+        android:title="person"
+        android:fragment="com.xbm.android.demo.fragment.WeChatMineFragment"
+        android:icon="@mipmap/mine_normal"
+        icon2="@mipmap/mine_selected"></item>
+</menu>

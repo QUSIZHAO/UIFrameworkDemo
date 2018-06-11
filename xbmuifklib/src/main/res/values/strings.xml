@@ -1,0 +1,42 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+	<string name = "app_name">XbmUiFkLib</string>
+	<string name="error_drm_not_supported">保护内容不受支持的API级别低于18</string>
+
+	<string name="error_drm_unsupported_scheme">这个设备不支持所需的数字版权管理方案</string>
+
+	<string name="error_drm_unknown">一个未知的DRM错误发生</string>
+
+	<string name="error_no_decoder">这个设备不提供一个译码器 <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+	<string name="error_no_secure_decoder">这个设备不提供一个安全的解码器 <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+	<string name="error_querying_decoders">无法查询设备解码器</string>
+
+	<string name="error_instantiating_decoder">不能实例化译码器 <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+	<string name="storage_permission_denied">权限访问存储被拒绝</string>
+	<string name="loading">正在加载中...</string>
+	<string name="load_failed">加载失败，请点我重试</string>
+	<string name="load_end">没有更多数据</string>
+
+
+	<string name="album_name_all">All Media</string>
+
+	<string name="button_preview">Preview</string>
+	<string name="button_apply_default">Apply</string>
+	<string name="button_apply">Apply(%1$d)</string>
+	<string name="button_back">Back</string>
+	<string name="photo_grid_capture">Camera</string>
+	<string name="empty_text">No media yet</string>
+	<string name="button_ok">OK</string>
+
+	<string name="error_over_count_default">You have reached max selectable</string>
+	<string name="error_over_count">You can only select up to %1$d media files</string>
+	<string name="error_under_quality">Under quality</string>
+	<string name="error_over_quality">Over quality</string>
+	<string name="error_file_type">Unsupported file type</string>
+	<string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+	<string name="error_no_video_activity">No App found supporting video preview</string>
+	<string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+
+</resources>

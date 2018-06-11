@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android = "http://schemas.android.com/apk/res/android" package = "com.xbm.android.demo">
+
+	<application android:allowBackup = "true"
+	             android:icon = "@mipmap/ic_launcher"
+	             android:label = "@string/app_name"
+	             android:roundIcon = "@mipmap/ic_launcher_round"
+	             android:supportsRtl = "true"
+	             android:theme = "@style/AppTheme"
+	             android:name=".CustomApplication">
+		<activity android:name = ".MainActivity">
+			<intent-filter>
+				<action android:name = "android.intent.action.MAIN" />
+
+				<category android:name = "android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name = ".activity.DemoFuncActivity"/>
+		<activity android:name = ".activity.SkidMenuActivity"/>
+		<activity
+				android:name=".activity.menu.MenuHorizontalActivity"
+				android:label="横向菜单"/>
+		<activity
+				android:name=".activity.menu.MenuVerticalActivity"
+				android:label="竖向菜单"/>
+		<activity
+				android:name=".activity.menu.MenuViewTypeActivity"
+				android:label="ViewType菜单"/>
+		<activity
+				android:name=".activity.menu.MenuViewPagerActivity"
+				android:label="和ViewPager嵌套"/>
+		<activity
+				android:name=".activity.menu.MenuDrawerActivity"
+				android:label="和DrawerLayout嵌套"/>
+		<activity
+				android:name=".activity.menu.MenuCardActivity"
+				android:label="CardView嵌套菜单"/>
+		<activity
+				android:name=".activity.menu.MenuDefineActivity"
+				android:label="实现你自己的侧滑"/>
+		<activity
+				android:name=".activity.RefreshLoadMoreActivity"
+				android:label="下拉刷新，加载更多"/>
+		<activity
+				android:name=".activity.move.DragListMenuActivity"
+				android:label="拖拽Item条目+菜单(List)"/>
+		<activity
+				android:name=".activity.move.DragGridMenuActivity"
+				android:label="拖拽Item条目+菜单(Grid)"/>
+		<activity
+				android:name=".activity.move.DragTouchListActivity"
+				android:label="触摸拖拽"/>
+		<activity
+				android:name=".activity.move.DragSwipeListActivity"
+				android:label="滑动直接删除+拖拽Item条目"/>
+		<activity
+				android:name=".activity.move.DragSwipeFlagsActivity"
+				android:label="自定义拖拽参数"/>
+		<activity android:name = ".activity.BottomBarActivity"/>
+		<activity android:name = ".activity.swipe.SwipeBackTestActivity"/>
+		<activity android:name = ".activity.swipe.SwipeActivity"/>
+		<activity android:name = ".activity.PullToRefreshActivity"/>
+		<activity android:name = ".activity.BannerPracticeActivity"/>
+		<activity android:name = ".ExpectMainActivity"/>
+		<activity android:name = ".activity.EfectTowActivity"/>
+		<activity android:name = ".MeteriaAnimActivity"/>
+
+		<activity
+				android:name=".activity.anim.TransitionActivity1"
+				android:theme="@style/MaterialAnimations.Red" />
+		<activity
+				android:name=".activity.anim.TransitionActivity2"
+				android:theme="@style/MaterialAnimations.Red" />
+		<activity
+				android:name=".activity.anim.TransitionActivity3"
+				android:theme="@style/MaterialAnimations.Red" />
+		<activity
+				android:name=".activity.anim.SharedElementActivity"
+				android:theme="@style/MaterialAnimations.Blue" />
+
+		<activity
+				android:name=".activity.anim.AnimationsActivity1"
+				android:theme="@style/MaterialAnimations.Green" />
+
+		<activity
+				android:name=".activity.anim.AnimationsActivity2"
+				android:theme="@style/MaterialAnimations.Green" />
+
+		<activity
+				android:name=".activity.anim.RevealActivity"
+				android:theme="@style/MaterialAnimations.Yellow" />
+	</application>
+
+</manifest>
